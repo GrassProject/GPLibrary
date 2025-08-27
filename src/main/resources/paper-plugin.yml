@@ -1,0 +1,9 @@
+name: GPLibrary
+version: '${version}'
+author: MrJimin
+
+api-version: "1.21"
+
+main: io.github.grassproject.lib.GPLibraryPlugin
+loader: io.github.grassproject.lib.GPLibraryLoader
+bootstrapper: io.github.grassproject.lib.GPLibraryBootstrap
