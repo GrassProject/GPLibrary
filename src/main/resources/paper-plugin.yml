@@ -7,3 +7,15 @@ api-version: "1.21"
 main: io.github.grassproject.lib.GPLibraryPlugin
 loader: io.github.grassproject.lib.GPLibraryLoader
 bootstrapper: io.github.grassproject.lib.GPLibraryBootstrap
+
+dependencies:
+  server:
+    ItemsAdder:
+      load: BEFORE
+      required: false
+    Nexo:
+      load: BEFORE
+      required: false
+    CraftEngine:
+      load: BEFORE
+      required: false
